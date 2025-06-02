@@ -30,15 +30,27 @@ This is a modern backend project built using Spring Boot 3 and Gradle. It featur
 ```
 ├── src
 │   ├── main
-│   │   ├── java/com/example/yourapp
-│   │   │   ├── controller
-│   │   │   ├── service
-│   │   │   ├── repository
-│   │   │   ├── model
-│   │   │   └── security
+│   │   ├── java
+│   │   │   └── com
+│   │   │   │   └── tracker
+│   │   │   │   │   └── job_ts
+│   │   │   │   │   │   ├── auth
+│   │   │   │   │   │   │   ├── config
+│   │   │   │   │   │   │   ├── controller
+│   │   │   │   │   │   │   ├── service
+│   │   │   │   │   │   │   ├── repository
+│   │   │   │   │   │   │   ├── entity
+│   │   │   │   │   │   │   ├── dto
+│   │   │   │   │   │   │   ├── exception
+│   │   │   │   │   │   │   └── security
+│   │   │   │   │   │   └── siber
+│   │   │   │   │   │   │   ├── config
+│   │   │   │   │   │   │   ├── repository
+│   │   │   │   │   │   │   ├── entity
+│   │   │   │   │   │   │   └── dto
 │   └── resources
-│       ├── application.yml
-│       └── static/
+│   │   ├── application.yml
+│   │   └── static/
 ├── build.gradle
 └── README.md
 ```
